@@ -8,25 +8,11 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "BitmapFont",
-"class": "TextureFont",
-"language": "GDScript",
-"path": "res://addons/texture_fonts/Classes/TextureFont.gd"
-} ]
-_global_script_class_icons={
-"TextureFont": "res://addons/texture_fonts/Assets/TextureFont.svg"
-}
-
 [application]
 
 config/name="Project"
 run/main_scene="res://audio/visual_mixer.tscn"
 config/icon="res://icon.png"
-
-[editor_plugins]
-
-enabled=PoolStringArray( "res://addons/texture_fonts/plugin.cfg" )
 
 [global]
 
